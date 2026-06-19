@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-MEDICINE_FILE = "medicines.csv"
-LOG_FILE = "medicine_log.csv"
+MEDICINE_FILE = "medicines.csv"   % You can add any csv file to your work.
+LOG_FILE = "medicine_log.csv"     % You can add any csv file to your work.
 
 try:
     from plyer import notification
